@@ -53,5 +53,5 @@ To download this text file right click [this link](https://raw.githubusercontent
       clipElements[i].click();
     }
 
-## This tool is was also posted on:
+## This tool was also posted on:
 * [Reddit](https://www.reddit.com/r/meijer/comments/108iftd/auto_clip_all_coupons_script_for_meijercom_with/)
