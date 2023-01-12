@@ -8,11 +8,16 @@ for (const element of filterElements) {
   }
 }
 
+// if there are any coupons available in selected categories
 if (checkedCategories) {
   setTimeout(() => {
+    //Select all elements with class name 'coupon-tile__button--clip'
     const clipElements = document.getElementsByClassName('coupon-tile__button--clip');
+    // get the number of clipped coupons from the clipped coupons tab
     const clipped = document.getElementById('js-clipped-coupon-count-display').innerHTML;
+    // calculate the number of coupons that need to be clipped
     const numToClip = maxCoupons - Number(clipped);
+    //loop through the number of coupons to clip
     for (let i = 0; i < numToClip; i++) {
       clipElements[i].click();
     }
@@ -76,7 +81,9 @@ if (checkedCategories) {
       box-shadow: 0px 0px 10px #333333;
     `;
 
+    // select the close button 
     const closeBtn = document.querySelector('.coupon-modual__close-btn');
+    // add event listener to close button to remove the modual
     closeBtn.addEventListener('click', () => {
       modual.remove();
     });
