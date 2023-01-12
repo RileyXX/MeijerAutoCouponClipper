@@ -1,6 +1,5 @@
 const filterElements = document.querySelectorAll('.coupon-filter__checkbox-wrapper .mperks-checkbox__container');
 
-
 let checkedCategories = false;
 for (const element of filterElements) {
   if (categories.some((category) => element.textContent.includes(category))) {
