@@ -1,7 +1,1 @@
-const maxCoupons = 160;
-const clipElements = document.getElementsByClassName('coupon-tile__button--clip');
-const clipped = document.getElementById('js-clipped-coupon-count-display').innerHTML;
-const numToClip = maxCoupons - Number(clipped);
-for (let i = 0; i < numToClip; i++) {
-  clipElements[i].click();
-}
+fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
