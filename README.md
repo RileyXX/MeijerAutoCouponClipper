@@ -35,7 +35,7 @@ I saw some other threads on reddit from people wanting a script like this for ot
 4. Save the .txt file
 
 ## Javascript code (preset food only categories, up to 160 coupons):
-To download this text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.txt) > save link as > save. Or open link and ctrl+s to download. Alternatively, you can copy the code and go to step 2 of the "How to use" section.
+To download this text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.txt) > save link as > save. Or open link and ctrl+s to download. Alternatively, you can copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/README.md#how-to-use-chrome-browser-instructions-hotkeys-might-vary-depending-on-your-browseroperating-system) of the "How to use" section.
 
     const maxCoupons = 160;
     const categories = ['Other', 'Bakery', 'Dairy', 'Deli', 'Dry Grocery', 'Fresh Meat', 'Fresh Seafood', 'Frozen Foods', 'Packaged Meat', 'Produce', 'Drinks'];
@@ -44,7 +44,7 @@ To download this text file right click [this link](https://raw.githubusercontent
 
 
 ## Alternative code (manually select coupon categories from the meijer website before running the code):
-To download this text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download. Alternatively, you can copy the code and go to step 2 of the "How to use" section.
+To download this text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download. Alternatively, you can copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/README.md#how-to-use-chrome-browser-instructions-hotkeys-might-vary-depending-on-your-browseroperating-system) of the "How to use" section.
 
     fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
 
