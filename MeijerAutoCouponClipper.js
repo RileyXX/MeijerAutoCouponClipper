@@ -55,7 +55,7 @@ if (checkedCategories) {
     closeBtn.addEventListener('click', () => {
       modual.remove();
     });
-  }, 10000); // 10 seconds (6 seconds for clipping + 4 seconds delay)
+  }, 10000); // 11 seconds (6 seconds for clipping + 5 seconds delay)
 } else {
   // run when there are no coupons available in selected categories
   setTimeout(() => {
