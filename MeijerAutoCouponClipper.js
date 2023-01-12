@@ -57,7 +57,7 @@ if (checkedCategories) {
     });
   }, 8000); // 8 seconds (6 seconds for clipping + 2 seconds delay)
 } else {
-	// run when there are no coupons available in selected categories
+  // run when there are no coupons available in selected categories
   setTimeout(() => {
     // create a modual/popup
     const modual = document.createElement('div');
