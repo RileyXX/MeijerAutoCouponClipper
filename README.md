@@ -46,6 +46,7 @@ To download this text file right click [this link](https://raw.githubusercontent
 ## Alternative code (manually select coupon categories from the meijer website before running the code):
 To download this text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download. Alternatively, you can copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/README.md#how-to-use-chrome-browser-instructions-hotkeys-might-vary-depending-on-your-browseroperating-system) of the "How to use" section.
 
+    const maxCoupons = 160;
     fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
 
 ## This tool was also posted on:
