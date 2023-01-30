@@ -18,7 +18,7 @@ if (checkedCategories) {
     // calculate the number of coupons that need to be clipped
     const numToClip = maxCoupons - Number(clipped);
     //loop through the number of coupons to clip
-    for (let i = 0; i < numToClip; i++) {
+    for (let i = 0; i <= numToClip; i++) {
       clipElements[i].click();
     }
   }, 6000); // 6 seconds
