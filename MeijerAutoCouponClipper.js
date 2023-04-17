@@ -19,15 +19,16 @@ if (checkedCategories) {
 
     // Loop through the clip elements and click them until the maximum number of coupons is reached
     for (let i = 0; i < numToClip; i++) {
-      clipElements[i].click();
-      numClipped++;
+      if (clipElements[i]) {
+        clipElements[i].click();
+        numClipped++;
+      }
     }
 
     setTimeout(() => {
       // Calculate the number of newly clipped coupons and the total number of clipped coupons
       const clipped = numClipped - preClipped;
       const totalClipped = numClipped;
-
       // Create a modal with information about the clipped coupons
       const modal = document.createElement('div');
       modal.setAttribute('id', 'coupon-modal');
@@ -40,7 +41,6 @@ if (checkedCategories) {
         </div>
       `;
       document.body.appendChild(modal);
-
       // Style the modal and add an event listener to remove it when the "Close" button is clicked
       modal.style.cssText = `
         position: fixed;
