@@ -12,7 +12,7 @@ This script will auto clip coupons on Meijer.com for user desired categories.
 *Note: These are Chrome browser instructions, hotkeys might vary depending on your browser/operating system.*
 
 ## Javascript code (preset food only categories, up to 160 coupons):
-Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/README.md#how-to-use-chrome-browser-instructions-hotkeys-might-vary-depending-on-your-browseroperating-system) of the "How to use" section. Alternatively, to download this code as a text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.txt) > save link as > save. Or open link and ctrl+s to download.
+Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper#how-to-use) of the "How to use" section. Alternatively, to download this code as a text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.txt) > save link as > save. Or open link and ctrl+s to download.
 
     const maxCoupons = 160;
     const categories = ['Other', 'Bakery', 'Dairy', 'Deli', 'Dry Grocery', 'Fresh Meat', 'Fresh Seafood', 'Frozen Foods', 'Packaged Meat', 'Produce', 'Drinks'];
@@ -21,7 +21,7 @@ Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAuto
 
 
 ## Alternative code (manually select coupon categories from the meijer website before running the code):
-Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/README.md#how-to-use-chrome-browser-instructions-hotkeys-might-vary-depending-on-your-browseroperating-system) of the "How to use" section. Alternatively, to download this code as a text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download.
+Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper#how-to-use) of the "How to use" section. Alternatively, to download this code as a text file right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download.
 
     const maxCoupons = 160;
     fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
