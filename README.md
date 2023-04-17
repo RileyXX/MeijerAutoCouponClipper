@@ -40,7 +40,7 @@ To download this text file right click [this link](https://raw.githubusercontent
     const maxCoupons = 160;
     const categories = ['Other', 'Bakery', 'Dairy', 'Deli', 'Dry Grocery', 'Fresh Meat', 'Fresh Seafood', 'Frozen Foods', 'Packaged Meat', 'Produce', 'Drinks'];
     
-    fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/acccebffd065dbf38d9b389ff4cdc5d5b6ed46b2/MeijerAutoCouponClipper.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
+    fetch("https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.js").then((e=>e.text())).then((e=>{let t=document.createElement("script");t.innerHTML=e,document.body.appendChild(t)})).catch((e=>console.error(e)));
 
 
 ## Alternative code (manually select coupon categories from the meijer website before running the code):
