@@ -1,3 +1,11 @@
+// Expand the coupon categories box
+const buttons = document.querySelectorAll('.coupon-filter__accordion-heading');
+buttons.forEach(button => {
+  if (button.textContent.includes("Categories") && button.getAttribute('aria-expanded') === 'false') {
+    button.click();
+  }
+});
+
 // Get all the filter elements and loop through them to check if any of them contains a category
 const filterElements = document.querySelectorAll('.coupon-filter__checkbox-wrapper .mperks-checkbox__container');
 let checkedCategories = false;
