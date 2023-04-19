@@ -56,3 +56,12 @@ I saw some other threads on reddit from people wanting a script like this for ot
 
 ## This tool was also posted on:
 * [Reddit](https://www.reddit.com/r/meijer/comments/108iftd/auto_clip_all_coupons_script_for_meijercom_with/)
+
+## Donations, Sponsorships and Custom Projects:
+Like my scripts? Consider donating! Become a sponsor and support my projects! See below for other donation options. Need help with a project? Open an issue and I will try my best to help! For other inquiries and custom projects contact me on [Twitter](https://twitter.com/RileyxBell).
+
+#### More donation options:
+- Cashapp: `$rileyxx`
+- Venmo: `@rileyxx`
+- Bitcoin: `bc1qrjevwqv49z8y77len3azqfghxrjmrjvhy5zqau`
+- Amazon Wishlist: [Link ↗](https://www.amazon.com/hz/wishlist/ls/WURF5NWZ843U)
