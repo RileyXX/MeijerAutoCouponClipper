@@ -29,8 +29,8 @@ Copy the following code and go to [step 2](https://github.com/RileyXX/MeijerAuto
 ## How to edit:
 
 1. Open the text file you created with the code
-2. Replace or add categories manually in line 2
-3. Replace the maxCoupons value in line 1 with your desired amount of coupons to clip. (150) for example
+2. Replace the maxCoupons value in line 1 with your desired amount of coupons to clip. (150) for example
+3. Replace or add categories manually in line 2 (make sure to use the same format using quotes around each category and a comma seperator)
 4. Save the .txt file
 
 ## Notes/Limitations:
