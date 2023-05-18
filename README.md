@@ -2,8 +2,7 @@
 This script allows you to automatically clip coupons on Meijer.com for user-desired categories.
 
 ## How to Use:
-1. Copy the following JavaScript code:
-   Alternatively, you can download and save the code as a .txt file on your computer for later use.
+1. Copy the following [JavaScript code](https://github.com/RileyXX/MeijerAutoCouponClipper#javascript-code-preset-food-only-categories).
 2. Login to Meijer.com and navigate to the [coupons page](https://www.meijer.com/content/meijer/en/mperks/coupons.html).
 3. In your browser, press F12 or right-click and select "Inspect Element".
 4. Click the console tab in the popup window.
