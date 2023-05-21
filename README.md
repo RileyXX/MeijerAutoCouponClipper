@@ -25,6 +25,7 @@ This script allows you to automatically clip coupons on Meijer.com for user-desi
      .catch((e => console.error(e)));
    ```
 Copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper#how-to-use) of the "How to use" section. Alternatively, to download this code as a text file for later use right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipper.txt) > save link as > save. Or open link and ctrl+s to download.
+<br><br>Source code can be found [here](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/MeijerAutoCouponClipper.js).
 
 ## Alternative Javascript Code (manually select coupon categories from the meijer website before running the code)
    ```javascript
@@ -40,6 +41,7 @@ Copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClip
      .catch((e => console.error(e)));
    ```
 Copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClipper#how-to-use) of the "How to use" section. Alternatively, to download this code as a text file for later use right click [this link](https://raw.githubusercontent.com/RileyXX/MeijerAutoCouponClipper/main/MeijerAutoCouponClipperNoCategories.txt) > save link as > save. Or open link and ctrl+s to download.
+<br><br>Source code can be found [here](https://github.com/RileyXX/MeijerAutoCouponClipper/blob/main/MeijerAutoCouponClipperNoCategories.js).
 
 ## How to Edit:
 1. Open the text file you created with the code.
