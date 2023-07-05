@@ -37,7 +37,7 @@ function showModal(content) {
 }
 
 // Expand the coupon categories box
-let buttons = document.querySelectorAll('.coupon-filter__accordion-heading');
+const buttons = document.querySelectorAll('.coupon-filter__accordion-heading');
 buttons.forEach(button => {
   if (button.textContent.includes("Categories") && button.getAttribute('aria-expanded') === 'false') {
     button.click();
