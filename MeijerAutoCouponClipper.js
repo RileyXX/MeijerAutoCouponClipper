@@ -37,7 +37,7 @@ function showModal(content) {
 }
 
 // Expand the coupon categories box
-const buttons = document.querySelectorAll('.coupon-filter__accordion-heading');
+let buttons = document.querySelectorAll('.coupon-filter__accordion-heading');
 buttons.forEach(button => {
   if (button.textContent.includes("Categories") && button.getAttribute('aria-expanded') === 'false') {
     button.click();
@@ -81,19 +81,19 @@ if (checkedCategories) {
           }, Math.floor(Math.random() * (500 - 100 + 1) + 100));
         }
       } else {
-				// If there are elements left to click
-				// Calculate the number of newly clipped coupons and the total number of clipped coupons
-				const clipped = numClipped - preClipped;
-				const totalClipped = numClipped;
-				// Create the content for the modal
-				const content = `
-					<p>Coupons Clipped: ${clipped}</p>
-					<p>Total Coupons Clipped: ${totalClipped}</p>
-					<p>Clipping Done!</p>
-					<p>Special Offers Page: <a href="https://www.meijer.com/shopping/coupons/hand-picked-offers.html" target="_blank">Link &#8599</a></p>
-				`;
-				// Display the modal with the content
-				showModal(content);
+	// If there are elements left to click
+	// Calculate the number of newly clipped coupons and the total number of clipped coupons
+	const clipped = numClipped - preClipped;
+	const totalClipped = numClipped;
+	// Create the content for the modal
+	const content = `
+		<p>Coupons Clipped: ${clipped}</p>
+		<p>Total Coupons Clipped: ${totalClipped}</p>
+		<p>Clipping Done!</p>
+		<p>Special Offers Page: <a href="https://www.meijer.com/shopping/coupons/hand-picked-offers.html" target="_blank">Link &#8599</a></p>
+	`;
+	// Display the modal with the content
+	showModal(content);
         }
     }
 
