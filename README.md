@@ -66,7 +66,7 @@ Copy the code and go to [step 2](https://github.com/RileyXX/MeijerAutoCouponClip
 I created this script to easily clip all the coupons on Meijer.com because they have hundreds of them, and manually going through them all to find what I wanted was time-consuming. With this script, it only takes a couple of seconds to clip all the coupons at once, allowing me to get the discounts automatically in-store or by placing an order on the website. I noticed that other users on Reddit were looking for similar scripts for different stores, but I couldn't find anything specifically for Meijer. That's why I created this script. I may improve this script and turn it into a Chrome extension at some point in the future.
 
 ## This Tool Was Also Posted On:
-- [Reddit](https://www.reddit.com/r/meijer/comments/108iftd/auto_clip_all_coupons_script_for_meijercom_with/)
+- [Reddit](https://www.reddit.com/r/meijer/comments/17xcxeh/auto_clip_all_coupons_script_for_meijercom_with/)
 
 ## Sponsorships, Donations, and Custom Projects:
 If you find my scripts helpful, you can become a [sponsor](https://github.com/sponsors/RileyXX) and support my projects! If you need help with a project, open an issue, and I'll do my best to assist you. For other inquiries and custom projects, you can contact me on [Twitter](https://twitter.com/RileyxBell).
