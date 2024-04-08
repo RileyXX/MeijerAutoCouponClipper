@@ -72,13 +72,13 @@ if (checkedCategories) {
       if (i < numToClip) {
         // Check if the element exists
         if (clipElements[i]) {
-          // Schedule a click after a random delay between 100-500 milliseconds
+          // Schedule a click after a random delay between 500-1000 milliseconds
           setTimeout(() => {
             clipElements[i].click();
             numClipped++;
             // Call the function recursively with the next index
             clickElementWithDelay(i + 1);
-          }, Math.floor(Math.random() * (500 - 100 + 1) + 100));
+          }, Math.floor(Math.random() * (1000 - 500 + 1) + 100));
         }
       } else {
 	// If there are elements left to click
